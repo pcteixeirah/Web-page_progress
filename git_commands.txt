@@ -1,0 +1,11 @@
+----------------------NODE------------------------------
+npm install --save-dev jasmine
+npm install -g jasmine
+jasmine spec/api/bicicleta_api_test.spec.js
+jasmine spec/models/bicicleta_test.spec.js
+npm test
+---------------------MONGO----------------------------
+mongodb://127.0.0.1:27017
+
+npm install mongoose --save
+npm request --version

@@ -3,7 +3,7 @@ var Bicicleta = require('../../models/bicicleta');
 exports.bicicleta_list = function(req, res){
     res.status(200).json({
         bicicletas: Bicicleta.allBicis
-    })
+    });
 }
 
 exports.bicicleta_create = function(req,res){
@@ -16,7 +16,7 @@ exports.bicicleta_create = function(req,res){
 
     res.status(200).json({
         bicicleta: bici
-    })
+    });
 }
 
 exports.bicicleta_delete = function(req, res){
